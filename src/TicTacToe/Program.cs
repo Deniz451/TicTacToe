@@ -16,9 +16,9 @@ namespace TicTacToe2
             int[] Board = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             bool GameOver = false;
             bool GameTie = false;
-            char y = ' '; //abych vedel koho napsat do vyhry
+            char y = ' '; //abych vedel koho napsat do vyhry (tereza maresova je tak hot)
             string UserInput;
-            int z = 0; //abych moh prerusit player1 nebo 2 loop
+            int z = 0; //abych moh prerusit player1 nebo 2 loop (tereza maresova je tak hot)
 
             var UsedNumbers = new List<string>();
             var Player1 = new List<string>();
@@ -26,12 +26,12 @@ namespace TicTacToe2
             var BoardMarks = new List<string>() { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 
-            while (GameOver == false)  // BEGGINING OF GAME LOOP
+            while (GameOver == false)  // BEGGINING OF GAME LOOP (miluju terezu maresovou)
             {
 
                 z = 0;
 
-                while (z == 0) //Player 1 playing
+                while (z == 0) //Player 1 playing (tereza maresova by mela moderovat evropu 2)
                 {
                     Console.Clear();
                     Console.Write("      Player1 \n\n\n");
