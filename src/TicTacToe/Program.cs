@@ -12,13 +12,13 @@ namespace TicTacToe2
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+            //Console.ForegroundColor = ConsoleColor.Green;
             int[] Board = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             bool GameOver = false;
             bool GameTie = false;
-            char y = ' '; //abych vedel koho napsat do vyhry (tereza maresova je tak hot)
+            char y = ' '; //abych vedel koho napsat do vyhry
             string UserInput;
-            int z = 0; //abych moh prerusit player1 nebo 2 loop (tereza maresova je tak hot)
+            int z = 0; //abych moh prerusit player1 nebo 2 loop
 
             var UsedNumbers = new List<string>();
             var Player1 = new List<string>();
@@ -26,12 +26,12 @@ namespace TicTacToe2
             var BoardMarks = new List<string>() { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 
-            while (GameOver == false)  // BEGGINING OF GAME LOOP (miluju terezu maresovou)
+            while (GameOver == false)  // BEGGINING OF GAME LOOP
             {
 
                 z = 0;
 
-                while (z == 0) //Player 1 playing (tereza maresova by mela moderovat evropu 2)
+                while (z == 0) //Player 1 playing
                 {
                     Console.Clear();
                     Console.Write("      Player1 \n\n\n");
@@ -113,16 +113,17 @@ namespace TicTacToe2
             } //END OF GAME LOOP
 
             Console.Clear();
+            Console.WriteLine("    GAME OVER!\n\n");
             PrintBoard();
 
             if (y == '1') //checking who won
             {
-                Console.WriteLine("Player 1 Wins!");
+                Console.WriteLine("\n\n  Player 1 Wins!");
             }
 
             else if (y == '2')
             {
-                Console.WriteLine("\nPlayer 2 Wins!");
+                Console.WriteLine("\n\n  Player 2 Wins!");
             }
 
             else if (y == ' ')
@@ -132,6 +133,7 @@ namespace TicTacToe2
 
             void PrintBoard ()
             {
+
                 Console.WriteLine(
                        "      |     |     \n" +
                        "   " + BoardMarks[1] + "  |  " + BoardMarks[2] + "  |  " + BoardMarks[3] + "  \n" +

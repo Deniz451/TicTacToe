@@ -6,3 +6,11 @@ C:\Users\denis\Desktop\Denis Rešitko\Škola\PVA\TicTacToe\TicTacToe\bin\Debug\T
 C:\Users\denis\Desktop\Denis Rešitko\Škola\PVA\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
 C:\Users\denis\Desktop\Denis Rešitko\Škola\PVA\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
 C:\Users\denis\Desktop\Denis Rešitko\Škola\PVA\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\Users\denis\Desktop\Denis Rešitko\Škola\PVA\TicTacToe\src\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\denis\Desktop\Denis Rešitko\Škola\PVA\TicTacToe\src\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\denis\Desktop\Denis Rešitko\Škola\PVA\TicTacToe\src\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\denis\Desktop\Denis Rešitko\Škola\PVA\TicTacToe\src\TicTacToe\obj\Debug\TicTacToe.csproj.AssemblyReference.cache
+C:\Users\denis\Desktop\Denis Rešitko\Škola\PVA\TicTacToe\src\TicTacToe\obj\Debug\TicTacToe.csproj.SuggestedBindingRedirects.cache
+C:\Users\denis\Desktop\Denis Rešitko\Škola\PVA\TicTacToe\src\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\denis\Desktop\Denis Rešitko\Škola\PVA\TicTacToe\src\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\denis\Desktop\Denis Rešitko\Škola\PVA\TicTacToe\src\TicTacToe\obj\Debug\TicTacToe.pdb
